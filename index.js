@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = 'https://challange-json-server-1.onrender.com/posts~';
+const API_BASE_URL = 'https://challange-json-server-1.onrender.com/posts';
 const POSTS_ENDPOINT = `${API_BASE_URL}/posts`;
 
 // DOM Elements
