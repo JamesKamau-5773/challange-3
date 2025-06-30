@@ -33,7 +33,7 @@ This application is a fully functional blog system built with vanilla JavaScript
 
 ### Using the Live Application
 
-1. Visit [the deployed site](#) <!-- Add your deployment URL here -->
+1. Visit [ https://jameskamau-5773.github.io/challange-3/](#) 
 2. Browse existing posts in the list
 3. Click any post to view details
 4. Use the form to create new posts
@@ -65,9 +65,9 @@ To run the project locally:
 Method	     Endpoint	               Description
 GET	         /posts	             Retrieve all blog posts
 GET	         /posts/:id	         Retrieve single blog post
-POST	       /posts	             Create new blog post
-PATCH	       /posts/:id	         Update existing blog post
-DELETE	     /posts/:id	         Delete blog post
+POST	         /posts	             Create new blog post
+PATCH	         /posts/:id	         Update existing blog post
+DELETE	      /posts/:id	         Delete blog post
 
 ### Technologies Used
 
@@ -81,11 +81,17 @@ Architecture: Modular JavaScript with clear separation of concerns
 
 ### Code Structure
 dev-blog/
+
 ├── index.html          # Main HTML file
+
 ├── styling.css         # All CSS styles
+
 ├── index.js            # Main JavaScript application
+
 └── assets/             # Optional assets folder
+
     └── images/         # For any local images
+
 
 ### Key JavaScript Features
 
